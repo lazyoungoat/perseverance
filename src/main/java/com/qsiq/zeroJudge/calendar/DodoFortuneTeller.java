@@ -1,4 +1,4 @@
-package com.qsiq.zeroJudge.calender;
+package com.qsiq.zeroJudge.calendar;
 
 import java.util.Scanner;
 
