@@ -1,13 +1,13 @@
 package leetcode.easy;
 
 public class Solution1480 {
-    public int[] runningSum(int[] nums){
-        int[] runningSums = new int[nums.length];
+    public int[] runningSum(int[] nums) {
         for (int i = 0; i < nums.length; i++) {
-            for (int j = 0; j < i+1; j++) {
-                runningSums[i] += nums[j];
-            }
+            if (i == 0) {
+            } else
+                nums[i] += nums[i - 1];
+
         }
-        return runningSums;
+        return nums;
     }
 }
