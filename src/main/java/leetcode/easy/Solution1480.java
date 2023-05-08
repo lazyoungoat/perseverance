@@ -6,7 +6,6 @@ public class Solution1480 {
             if (i == 0) {
             } else
                 nums[i] += nums[i - 1];
-
         }
         return nums;
     }
