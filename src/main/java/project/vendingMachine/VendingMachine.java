@@ -1,4 +1,4 @@
-package project;
+package project.vendingMachine;
 
 public class VendingMachine {
 
